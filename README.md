@@ -1,0 +1,1 @@
+This example demonstrates a common pitfall in Groovy when using the `eachWithIndex` method. The `return` statement within the closure only exits the closure's execution, not the surrounding method.  This can be easily overlooked and cause unexpected behavior in your code.  The solution shows how to correctly handle this scenario using a more controlled approach.
